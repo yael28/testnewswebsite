@@ -121,7 +121,7 @@ body {
 .list-content a.lists-side { display: inline-block; padding: 10px 10px; text-decoration: none; }
 .list-content a.lists-side:hover { background-color: #ccc; }
 .list-content a.lists-side:hover h4 { color: #0066ff; }
-.list-content a.lists-side h4 { font-size: 16px; color: #333; font-weight: normal; margin-top: 10px; margin-bottom: 5px; }
+.list-content a.lists-side h4 { font-size: 16px; color: #333; font-weight: normal; margin: 10px 0px 5px 0px; }
 .list-content a.lists-side p { font-size: 11px; color: #333; }
 
 .text-content { padding: 20px 10px; }
