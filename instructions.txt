@@ -1,0 +1,19 @@
+1. clone or download the file from github to your local server
+   example: xampp
+
+   github repository: 
+   https://github.com/yael28/testnewswebsite
+
+
+2. after clonning, open your phpmyadmin and create a database, name it "testnews" or you can create your own database name
+
+3. once created, import the file called "testnews.sql" to your created database
+
+4. once done importing the sql file,
+   under "config" folder, 
+   click open variables.php and find the "database constant" comment
+   under that comment are the variables for configuration and connection to server and database
+   check wether the values on the variables ar correct, if not, update it.
+
+5. once done, open your browser and access the files
+   example: http://localhost/"yourfoldername"/index.php
