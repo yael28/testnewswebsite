@@ -74,7 +74,7 @@ $news = $display->displayNewsSingle($_GET['id']);
                             <div class="list">
                                 <?php
                                 foreach( $display->displayNewsList(1,4,$_GET['id']) as $key => $value ):
-                                    echo '<a href="news.php?id='.$value['news_slug'].'">
+                                    echo '<a class="lists" href="news.php?id='.$value['news_slug'].'">
                                         <div>
                                             <img src="'.$value['news_image_thumb'].'" />
                                             <h4>'.$value['news_title'].'</h4>

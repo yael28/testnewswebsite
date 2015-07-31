@@ -23,5 +23,14 @@ window.log = function f(){
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
 // remap jQuery to $
 (function($){
-		  	
+		  
+	$('.list-content').pajinate({
+		items_per_page : 10,
+		item_container_id : '.list',
+		nav_panel_id : '.pagination',
+		num_page_links_to_display : 4,
+		show_first_last: false,
+		wrap_around: false
+	});
+	
 })(this.jQuery);
