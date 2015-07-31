@@ -23,44 +23,5 @@ window.log = function f(){
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
 // remap jQuery to $
 (function($){
-		  
-	var hash = window.top.location.hash.replace( '#', '' );
-	if( hash != '' ){
-		if(hash == 'success'){
-			$('#response').html('Message Sent!');
-		}else if(hash == 'failed'){
-			$('#response').html('The reCAPTCHA wasn\'t entered correctly. Try again.');
-		}
-	}
-	
-	$('.bar').live('click', function(){
-		if( $('.menu-content').hasClass('close') ){							 	
-			$('.menu-content').stop().animate({marginLeft: '-960px'}, 500);
-			$('.menu-content').removeClass('close');
-		}else{
-			$('.menu-content').stop().animate({marginLeft: '0px'}, 500);
-			$('.menu-content').addClass('close');
-		}
-	});
-	
-	$('#contactform').validate();
-	
-	$(window).scroll(function() {
-							  	
-		var scrollTop = window.scrollY || window.pageYOffset || $(window).scrollTop();			
-		var scroll_element = $('body').scrollTop();
-		
-		if( scrollTop > 50 ){
-			$('.gobacktop').fadeIn('fast');
-		}else{
-			$('.gobacktop').fadeOut('fast');	
-		}
-
-	});
-	
-	$(".gobacktop").on('click', function(){			
-		$("html, body").animate({ scrollTop: $("#topScroll").offset().top }, 600);
-		return false;
-	});
-	
+		  	
 })(this.jQuery);
