@@ -114,6 +114,7 @@ body {
 .list-content a.lists:hover h4 { color: #0066ff; }
 .list-content a.lists h4 { font-size: 16px; color: #333; font-weight: normal; margin-top: 10px; margin-bottom: 5px; }
 .list-content a.lists p { font-size: 11px; color: #333; }
+.list-content a.lists img { width: 172px; height: 100px;}
 
 .text-content { padding: 20px 10px; }
 .text-content img { margin-bottom: 20px; width:100%; }
@@ -194,6 +195,8 @@ footer { width: 100%; background-color: #232323; overflow: hidden; }
 	.tlogo { margin-left: 10px; }
 	#title .title-holder h3 { margin-left: 10px; }
 	#title .title-holder p { margin-left: 10px; }
+	
+	.list-content a.lists img { width: 300px; height: 100px;}
 }
 
 @media only screen and (min-width: 35em) {
