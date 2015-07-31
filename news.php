@@ -57,14 +57,7 @@ $news = $display->displayNewsSingle($_GET['id']);
             <div class="content-holder clearfix">
                 
                 <div class="fleft columns column-left">
-                	<div class="text-content">
-                        <div class="img">
-                        	<img src="<?php echo str_replace('300x100', '500x300', $news['image']); ?>" />
-                        </div>
-                        <div class="text">
-                             <p><?php echo $news['content']; ?></p>
-                        </div>
-                	</div>
+                	<?php include (dirname(__FILE__)."/objects/news-single.php"); ?>
                 </div>
                 
                 <div class="fleft columns column-right">
