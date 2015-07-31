@@ -178,7 +178,7 @@ footer { width: 100%; background-color: #232323; overflow: hidden; }
    Media Queries
    ========================================================================== */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
 	#wrapper { min-width: 320px; }
 	.tlogo { margin-left: 10px; }
 	#title .title-holder h3 { margin-left: 10px; }
