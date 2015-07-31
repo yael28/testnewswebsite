@@ -108,10 +108,12 @@ body {
 .content-holder .columns { }
 
 .list-content { max-width: 960px; text-align: center; margin: 20px 0px; }
+.list-content a .details { text-align: left; }
 .list-content a { display: inline-block; padding: 10px 10px; text-decoration: none; }
 .list-content a:hover { background-color: #ccc; }
 .list-content a:hover h4 { color: #0066ff; }
 .list-content a h4 { font-size: 16px; color: #333; font-weight: normal; margin-top: 10px; margin-bottom: 5px; }
+.list-content a p { font-size: 11px; color: #333; }
 
 .text-content { padding: 20px 10px; }
 .text-content img { margin-bottom: 20px; width:100%; }

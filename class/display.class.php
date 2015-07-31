@@ -19,7 +19,7 @@ class Display{
 		}
 		
 		$list = array();
-		$sql = mysql_query("SELECT news_title, news_slug, news_image_thumb FROM testnews.tbl_news WHERE news_status = ".$status." ".$str." ORDER BY news_date DESC LIMIT ".$limit );
+		$sql = mysql_query("SELECT news_title, news_slug, news_image_thumb, news_date FROM testnews.tbl_news WHERE news_status = ".$status." ".$str." ORDER BY news_date DESC LIMIT ".$limit );
 		if( mysql_num_rows($sql)>0 ){
 			while($row = mysql_fetch_array($sql)){
 				$list[] = $row;
