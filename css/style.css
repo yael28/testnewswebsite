@@ -139,7 +139,7 @@ body {
 
 .pagination { margin: 10px 0px; }
 .pagination a { margin: 0px 10px; color: #7e7e7e; font-family: 12px; text-decoration: none; }
-.pagination a.selected { color: #6d6d6d; }
+.pagination a.selected { color: #333; }
 
 .pagination a.nextPage {
 	display: inline-block;
