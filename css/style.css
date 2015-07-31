@@ -104,7 +104,7 @@ body {
 
 .content-holder { max-width: 960px; margin: 0 auto; text-align: left; }
 .content-holder .column-left { max-width: 560px; }
-.content-holder .column-right { max-width: 320px; }
+.content-holder .column-right { max-width: 320px; margin-left: 70px; }
 .content-holder .columns { }
 
 .list-content { max-width: 960px; text-align: center; margin: 20px 0px; }
@@ -161,7 +161,7 @@ footer { width: 100%; background-color: #232323; overflow: hidden; }
 	#title .title-holder p { margin-left: 10px; }
 	
 	.content-holder .column-left,
-	.content-holder .column-right { margin: 0 auto; float: none !important; }
+	.content-holder .column-right { margin: 0 auto !important; float: none !important; }
 	
 }
 
