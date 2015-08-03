@@ -28,7 +28,7 @@ class Display{
 			return $list;	
 			
 		}else{
-			return 'no available content';
+			return $list;
 		}
 		
 	}
@@ -49,7 +49,7 @@ class Display{
 			return $news;
 			
 		}else{
-			return 'no available content';
+			return '0';
 		}
 		
 	}
